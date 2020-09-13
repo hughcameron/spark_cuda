@@ -48,6 +48,7 @@ dependencies:
 - seaborn>=0.8.1
 - swig==3.0.12
 - tqdm>=4.31.1
+- xgboost>=1.2.0
 - pip:
   - azure-cli-core>=2.0.75
   - azure-mgmt-cosmosdb>=0.8.0
@@ -60,8 +61,6 @@ dependencies:
   - hyperopt==0.1.1
   - idna==2.7
   - jupyterlab_code_formatter
-  - jupyterlab-git
-  - jupyterlab-s3-browser
   - locustio==0.11.0
   - memory-profiler>=0.54.0
   - nbconvert==5.5.0
